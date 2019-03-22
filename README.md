@@ -93,6 +93,9 @@ Travis uses a .travis.yml file in the root of your repository to learn about you
 |remove_branches |Allows you to remove default branches set in config_defaults.yml.|
 |notifications   |Allows you to specify the notifications configuration in the .travis.yml file.|
 |remove_notifications   |Allows you to remove default branches set in config_defaults.yml.|
+|deploy|Boolean to determine if deploy section should be included to deploy to the Puppet Forge. Defaults to `false`.|
+|user|If deploy is `true` this string needs to be set to the Puppet Forge user name.|
+|secure|If deploy is `true` this string needs to be set to the encrypted password. See [https://docs.travis-ci.com/user/encryption-keys/#usage](https://docs.travis-ci.com/user/encryption-keys/#usage) for instructions on how to encrypt your password.|
 
 ### .yardopts
 
