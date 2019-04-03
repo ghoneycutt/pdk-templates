@@ -85,7 +85,6 @@
       stage: spec
     - env: DEPLOY_TO_FORGE=yes
       stage: deploy
-  deploy: false
   branches:
     - master
     - /^v\d/
